@@ -1,0 +1,48 @@
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-bg-color-dark-gray {
+   background-color: #2F3336;
+}
+
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 50px;
+}
+
+.wd-grid-row {
+   clear: both;
+}
+
+.wd-grid-majority-left {
+   width: 90%;
+   float: left;
+}
+
+.wd-grid-far-right {
+  width: 10%;
+  float: left
+
+.wd-border-thin {
+    border-width: 2px; }
+
+.wd-border-gray {
+   border-color: #2F3336; }
+
+.wd-border-solid {
+    border-style: solid; }
+
+.wd-padding-16 {
+    padding: 16px;
+}
+
+
+
+.wd-image-style {
+    max-width: 100%;
+    height: auto;
+}
