@@ -1,0 +1,72 @@
+.wd-bookmarks-title-font {
+    font-size: 20px;
+}
+
+.wd-title-vertical-spacing {
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.wd-handle-spacing {
+    margin: 0px;
+    padding-top: 0px;
+    padding-bottom: 12px;
+}
+
+.wd-user-pic {
+    height: 48px;
+    width: 48px;
+    position: fixed
+    left: 12px;
+}
+
+.wd-circ-pic {
+    border-radius:30px;
+}
+
+.wd-pic {
+    height: 264px;
+    width: 504px;
+}
+
+.wd-content-offset {
+    padding-left: 60px;
+}
+
+.wd-height {
+    height: 45px;
+}
+
+.wd-fixed-pos {
+    position: fixed;
+    left: 145px;
+    top: 84px;
+}
+
+.wd-fixed-pos2 {
+    position: fixed;
+    left: 245px;
+    top: 87px;
+}
+
+.wd-main-width {
+    width: 506px;
+}
+
+.wd-pos-relative-nudge-down-right {
+   position: relative;
+   top: 20px;
+   left: 70px;
+}
+
+.wd-quarter-width {
+    width: 25%
+}
+
+.wd-fg-red {
+    color: red;
+}
+
+.wd-fg-gray {
+    color: rgb(110,118,125);
+}

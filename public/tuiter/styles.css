@@ -1,0 +1,129 @@
+.wd-bg-color-black {
+    background-color: black;
+}
+
+.wd-section-borders {
+    border: 1px rgb(47,51,54) solid;
+}
+
+.wd-margins {
+    margin-left: 50px;
+    margin-right: 10px;
+}
+
+.wd-bottom-margins {
+    padding-bottom: 50px;
+}
+
+.wd-section-position {
+    position: relative;
+}
+
+.wd-section-top-bottom-padding {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.wd-content-left-offset {
+    padding-left: 16px
+}
+
+.wd-input-type-text {
+    type: text;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-bg-color-dark-gray {
+   background-color: rgb(47,51,54);
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 10px;
+}
+
+.wd-width-90 {
+    width: 90%;
+}
+
+.wd-settings-pos {
+  position: absolute;
+  right: 12px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-link-size {
+    font-size: 15px;
+}
+
+.wd-left-link-padding {
+    padding-top: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+}
+
+.wd-link-padding {
+    padding: 16px;
+}
+
+.wd-for-you-color {
+    color: rgb(29,161,242);
+}
+
+.wd-other-link-color {
+    color: rgb(110,118,125);
+}
+
+.wd-bold {
+    font-weight: bold;
+}
+
+.wd-grid-row {
+    clear: both;
+}
+
+.wd-font-topic {
+    font-size: 13px;
+    color: rgb(110,118,125);
+}
+
+.wd-font-title {
+    font-size: 16px;
+}
+
+.wd-first-p-spacing {
+    margin-bottom: 0px;
+    margin-top: 5px;
+}
+
+.wd-next-p-spacing {
+    margin: 0px;
+    padding-top: 0px;
+}
+
+.wd-section-height {
+    height: 105px;
+}
+
+.wd-font-author {
+    font-size: 13px;
+}
+
+.wd-img-size {
+    width: 100px;
+    height: 100px;
+}
+
+.wd-img-position {
+    position: absolute;
+    right: 26px; /*16 px requested + 10 to offset my right margin*/
+}
+
+.wd-white-text {
+    color: white;
+}
