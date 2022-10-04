@@ -28,12 +28,12 @@
 }
 
 .wd-rounded-corners-all-around {
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .wd-checkmark {
-    height: 10px;
-    width: 10px;
+    height: 15px;
+    width: 15px;
 }
 
 .wd-bold-writing {
@@ -134,7 +134,7 @@
 }
 
 .wd-width-90 {
-    width: 90%;
+    width: 92%;
 }
 
 .wd-indent-text {
@@ -155,105 +155,14 @@
     border-radius: 10px;
 }
 
-
-
-
-
-.wd-bg-color-black {
-    background-color: black;
-}
-
-.wd-margins {
-    margin-left: 50px;
-    margin-right: 10px;
-}
-
-.wd-bottom-margins {
-    padding-bottom: 50px;
-}
-
-.wd-section-position {
-    position: relative;
-}
-
-.wd-content-left-offset {
-    padding-left: 16px
-}
-
-.wd-bg-color-dark-gray {
-   background-color: rgb(47,51,54);
-}
-
-
-
-.wd-settings-pos {
-  position: absolute;
-  right: 12px;
-}
-
-.wd-link-size {
-    font-size: 15px;
-}
-
-.wd-left-link-padding {
-    padding-top: 16px;
-    padding-right: 16px;
-    padding-bottom: 16px;
-}
-
-.wd-link-padding {
-    padding: 16px;
-}
-
-.wd-for-you-color {
-    color: rgb(29,161,242);
-}
-
-.wd-other-link-color {
-    color: rgb(110,118,125);
+.wd-input-height {
+    height: 35px;
 }
 
 .wd-bold {
     font-weight: bold;
 }
 
-.wd-font-topic {
-    font-size: 13px;
-    color: rgb(110,118,125);
-}
-
-.wd-font-title {
-    font-size: 16px;
-}
-
-.wd-first-p-spacing {
-    margin-bottom: 0px;
-    margin-top: 5px;
-}
-
-.wd-next-p-spacing {
-    margin: 0px;
-    padding-top: 0px;
-}
-
-.wd-section-height {
-    height: 105px;
-}
-
-.wd-font-author {
-    font-size: 13px;
-}
-
-.wd-img-size {
-    width: 100px;
-    height: 100px;
-}
-
-.wd-img-position {
-    position: absolute;
-    right: 26px; /*16 px requested + 10 to offset my right margin*/
-}
-
-.wd-white-text {
-    color: white;
+.wd-short-lines {
+    line-height: 17px;
 }
