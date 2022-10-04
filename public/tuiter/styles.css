@@ -1,9 +1,166 @@
-.wd-bg-color-black {
-    background-color: black;
-}
-
 .wd-section-borders {
     border: 1px rgb(47,51,54) solid;
+}
+
+.wd-top-padding {
+    padding-top: 5px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-follow-suggestion-img {
+    height: 40px;
+    width: 40px;
+}
+
+.wd-clear-float {
+    clear: both;
+}
+
+.wd-left-padding {
+    padding-left: 10px;
+}
+
+.wd-bottom-padding {
+    padding-bottom: 10px;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 25px;
+}
+
+.wd-checkmark {
+    height: 10px;
+    width: 10px;
+}
+
+.wd-bold-writing {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.wd-regular-writing {
+    font-size: 13px;
+    color: DimGray;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-input-type-text {
+    type: text;
+}
+
+.wd-relative-pos {
+    position: relative;
+}
+
+.wd-shift-down {
+    position: relative;
+    top: 10px;
+}
+
+.wd-shift-left {
+    position: relative;
+    right: 10px;
+}
+
+.wd-shift-right {
+    position: relative;
+    left: 10px;
+}
+
+.wd-bg-color-blue {
+    background: blue;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-left-border {
+    border-left: 1px rgb(47,51,54) solid;
+}
+
+.wd-top-border {
+    border-top: 1px LightGray solid;
+}
+
+.wd-right-border {
+    border-right: 1px rgb(47,51,54) solid;
+}
+
+.wd-full-width {
+    width: 100%;
+}
+
+.wd-section-top-bottom-padding {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-search-img-size {
+    width: 25px;
+    height: 25px;
+}
+
+.wd-fg-color-blue {
+    color: blue;
+}
+
+.wd-no-border {
+    border: none;
+}
+
+.wd-section-top-padding {
+    padding-top: 5px;
+}
+
+.wd-auto-height {
+    height: 100%;
+    width: 100%;
+}
+
+.wd-input-border {
+    border-width: 1px;
+    border-color: LightGray;
+}
+
+.wd-width-90 {
+    width: 90%;
+}
+
+.wd-indent-text {
+    text-indent: 10px;
+}
+
+.wd-abs-shift {
+    position: absolute;
+    top: 450px;
+}
+
+.wd-abs-gear {
+    position: absolute;
+    top: 10px;
+}
+
+.wd-barely-rounded {
+    border-radius: 10px;
+}
+
+
+
+
+
+.wd-bg-color-black {
+    background-color: black;
 }
 
 .wd-margins {
@@ -19,42 +176,19 @@
     position: relative;
 }
 
-.wd-section-top-bottom-padding {
-    padding-top: 5px;
-    padding-bottom: 5px;
-}
-
 .wd-content-left-offset {
     padding-left: 16px
-}
-
-.wd-input-type-text {
-    type: text;
-}
-
-.wd-fg-color-white {
-    color: white;
 }
 
 .wd-bg-color-dark-gray {
    background-color: rgb(47,51,54);
 }
 
-.wd-rounded-corners-all-around {
-    border-radius: 10px;
-}
 
-.wd-width-90 {
-    width: 90%;
-}
 
 .wd-settings-pos {
   position: absolute;
   right: 12px;
-}
-
-.wd-float-left {
-    float: left;
 }
 
 .wd-link-size {
@@ -81,10 +215,6 @@
 
 .wd-bold {
     font-weight: bold;
-}
-
-.wd-grid-row {
-    clear: both;
 }
 
 .wd-font-topic {
