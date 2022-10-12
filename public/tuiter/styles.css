@@ -68,6 +68,11 @@
     top: 5px;
 }
 
+.wd-smaller-shift-down {
+    position: relative;
+    top: 3px;
+}
+
 .wd-shift-left {
     position: relative;
     right: 10px;
