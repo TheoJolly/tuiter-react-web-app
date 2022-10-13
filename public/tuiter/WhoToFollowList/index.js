@@ -5,9 +5,7 @@ const WhoToFollowList = () => {
     return (`
         <ul class="list-group">
             <li class="list-group-item wd-bold">Who to follow</li>
-            ${for (let i=0; i<$(who.length); i++) {
-                WhoToFollowListItem($(who[i]))
-            }}
+            ${who.map(x => WhoToFollowListItem(x)).join('')}
         </ul>
    `);
 }
