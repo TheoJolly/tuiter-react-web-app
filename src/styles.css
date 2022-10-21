@@ -1,0 +1,207 @@
+.wd-section-borders {
+    border: 1px rgb(47,51,54) solid;
+}
+
+.wd-top-padding {
+    padding-top: 5px;
+}
+
+.wd-float-left {
+    float: left;
+}
+
+.wd-follow-suggestion-img {
+    height: 40px;
+    width: 40px;
+}
+
+.wd-clear-float {
+    clear: both;
+}
+
+.wd-left-padding {
+    padding-left: 10px;
+}
+
+.wd-bottom-padding {
+    padding-bottom: 10px;
+}
+
+.wd-rounded-corners-all-around {
+    border-radius: 20px;
+}
+
+.wd-checkmark {
+    height: 15px;
+    width: 15px;
+}
+
+.wd-bold-writing {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.wd-regular-writing {
+    font-size: 13px;
+    color: DimGray;
+}
+
+.wd-float-right {
+    float: right;
+}
+
+.wd-input-type-text {
+    type: text;
+}
+
+.wd-relative-pos {
+    position: relative;
+}
+
+.wd-shift-down {
+    position: relative;
+    top: 10px;
+}
+
+.wd-small-shift-down {
+    position: relative;
+    top: 5px;
+}
+
+.wd-smaller-shift-down {
+    position: relative;
+    top: 3px;
+}
+
+.wd-shift-left {
+    position: relative;
+    right: 10px;
+}
+
+.wd-shift-right {
+    position: relative;
+    left: 10px;
+}
+
+.wd-small-shift-right {
+    position: relative;
+    left: 5px;
+}
+
+.wd-bg-color-blue {
+    background: blue;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-left-border {
+    border-left: 1px rgb(47,51,54) solid;
+}
+
+.wd-top-border {
+    border-top: 1px LightGray solid;
+}
+
+.wd-right-border {
+    border-right: 1px rgb(47,51,54) solid;
+}
+
+.wd-full-width {
+    width: 100%;
+}
+
+.wd-section-top-bottom-padding {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.wd-fg-color-white {
+    color: white;
+}
+
+.wd-search-img-size {
+    width: 25px;
+    height: 25px;
+}
+
+.wd-fg-color-blue {
+    color: blue;
+}
+
+.wd-no-border {
+    border: none;
+}
+
+.wd-section-top-padding {
+    padding-top: 5px;
+}
+
+.wd-auto-height {
+    height: 100%;
+    width: 100%;
+}
+
+.wd-fixed-tuit-img {
+    height: 80px;
+    width: 80px;
+}
+
+.wd-input-border {
+    border-width: 1px;
+    border-color: LightGray;
+}
+
+.wd-width-90 {
+    width: 90%;
+}
+
+.wd-indent-text {
+    text-indent: 10px;
+}
+
+.wd-abs-shift-xxl {
+    position: absolute;
+    top: 460px;
+}
+
+.wd-abs-shift-xl {
+    position: absolute;
+    top: 400px;
+}
+
+.wd-abs-shift-lg {
+    position: absolute;
+    top: 395px;
+}
+
+.wd-abs-shift-md {
+    position: absolute;
+    top: 425px;
+}
+
+.wd-abs-shift-sm {
+    position: absolute;
+    top: 330px;
+}
+
+.wd-abs-gear {
+    position: absolute;
+}
+
+.wd-barely-rounded {
+    border-radius: 10px;
+}
+
+.wd-input-height {
+    height: 35px;
+}
+
+.wd-bold {
+    font-weight: bold;
+}
+
+.wd-short-lines {
+    line-height: 17px;
+}
