@@ -1,20 +1,25 @@
 import React from "react";
+
+function handleClick(prop) {
+    NavigationSidebar.active=prop;
+}
+
 const NavigationSidebar = (
     {
-        active = 'explore'
+        active = 'home'
     }) => {
         return (
         <div className="list-group">
             <a className="list-group-item" href="/#">
                 <i className="fab fa-twitter"></i>
              </a>
-             <a className={`list-group-item ${active === 'home'?'active':''}`} href="/#">
+             <a className={`list-group-item ${active === 'home'?'active':''}`} onclick={handleClick('home')} href="/tuiter/">
                 <div>
                     <i className="fas fa-home"></i>
                     <span className="wd-small-shift-right">Home</span>
                 </div>
              </a>
-             <a className={`list-group-item ${active === 'explore'?'active':''}`} href="/#">
+             <a className={`list-group-item ${active === 'explore'?'active':''}`} onclick={handleClick('explore')} href="/tuiter/">
                 <div>
                     <i className="fas fa-hashtag"></i>
                     <span className="wd-small-shift-right">Explore</span>
