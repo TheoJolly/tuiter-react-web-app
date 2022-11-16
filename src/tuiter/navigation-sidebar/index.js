@@ -13,13 +13,13 @@ const NavigationSidebar = (
             <a className="list-group-item" href="/#">
                 <i className="fab fa-twitter"></i>
              </a>
-             <a className={`list-group-item ${active === 'home'?'active':''}`} onclick={handleClick('home')} href="/tuiter/">
+             <a className={`list-group-item ${active === 'home'?'active':''}`} onClick={handleClick('home')} href="/tuiter/">
                 <div>
                     <i className="fas fa-home"></i>
                     <span className="wd-small-shift-right">Home</span>
                 </div>
              </a>
-             <a className={`list-group-item ${active === 'explore'?'active':''}`} onclick={handleClick('explore')} href="/tuiter/">
+             <a className={`list-group-item ${active === 'explore'?'active':''}`} onClick={handleClick('explore')} href="/tuiter/">
                 <div>
                     <i className="fas fa-hashtag"></i>
                     <span className="wd-small-shift-right">Explore</span>
