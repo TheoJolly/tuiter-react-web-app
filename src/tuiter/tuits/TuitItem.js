@@ -1,6 +1,6 @@
 import React from "react";
 import {useDispatch} from "react-redux";
-import {deleteTuit} from "../tuits/tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
 
 const TuitItem = (
  {
@@ -21,7 +21,7 @@ const TuitItem = (
 ) => {
  const dispatch = useDispatch();
  const deleteTuitHandler = (id) => {
-   dispatch(deleteTuit(id));
+  dispatch(deleteTuitThunk(id));
  }
  return(
    <div className="row">
@@ -39,7 +39,7 @@ const TuitItem = (
               <path d="M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/>
             </svg>
             <div className="w-100 h-25 mb-0">{post.time}</div>
-            <svg style={{height: "16px", margin: "0px 0px 0px -300px"}} onClick={() => deleteTuitHandler(post._id)}> xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="h-auto w-auto bi bi-x-lg " >
+            <svg style={{height: "16px", margin: "0px 0px 0px -300px"}} onClick={() => deleteTuitHandler(post._id)} xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="h-auto w-auto bi bi-x-lg ">
               <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
             </svg>
         </div>
